@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Medicine Remider</string>
+
+    <!-- Label for overflow menu option that inserts fake medicine data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all medicine data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Medicine</string>
+
+    <!-- Label for overflow menu option that deletes all medicine data in the app [CHAR LIMIT=20] -->
+    <string name="about_program">About</string>
+
+    <!-- Label Indication Medicine Text -->
+    <string name="medicine_indication">Diagnostics - Indication</string>
+
+    <!-- Label Type Medicine Text -->
+    <string name="type_medicine">Type Medicine</string>
+
+    <!-- Label Picture Medicine Text -->
+    <string name="icon_medicine">Picture of Medicine</string>
+
+    <!-- Label Name Medicine Text -->
+    <string name="name_medicine">Name Medicine</string>
+
+    <!-- Label Name Medicine Text -->
+    <string name="refill_String">Refill Medicine</string>
+
+    <!-- Label Stock Medicine Text -->
+    <string name="stock_medicine">Stock Medicine</string>
+
+    <!-- Label Unidad Medicine Text -->
+    <string name="unit_medicine">Units</string>
+
+    <!-- Label Unidad Medicine Text -->
+    <string name="treatment_medicine">TREATMENT</string>
+
+    <!-- Label Unidad Medicine Text -->
+    <string name="save_medicine">SAVE MEDICINE</string>
+
+    <!-- Label Unidad Medicine Text -->
+    <string name="cancel_medicine">CANCEL MEDICINE</string>
+
+
+    <!-- Label for dropdown menu option if the category is tablet [CHAR LIMIT=20] -->
+    <string name="category_tablet">Tablet</string>
+
+    <!-- Label for dropdown menu option if the category is capsule [CHAR LIMIT=20] -->
+    <string name="category_capsule">Capsule</string>
+
+    <!-- Label for dropdown menu option if the category is injection [CHAR LIMIT=20] -->
+    <string name="category_injection">Injection</string>
+
+    <!-- Label for dropdown menu option if the category is drinkable [CHAR LIMIT=20] -->
+    <string name="category_drinkable">Drinkable</string>
+
+    <!-- Label for dropdown menu option if the category is inhaler [CHAR LIMIT=20] -->
+    <string name="category_inhaler">Inhaler</string>
+
+    <!-- Label for dropdown menu option if the category is powder [CHAR LIMIT=20] -->
+    <string name="category_powder">Powder</string>
+
+    <!-- Label for dropdown menu option if the category is anticonceptive [CHAR LIMIT=20] -->
+    <string name="category_anticonceptive">Anticonceptive</string>
+
+    <!-- Label for dropdown menu option if the category is cream [CHAR LIMIT=20] -->
+    <string name="category_cream">Cream</string>
+
+    <!-- Label for dropdown menu option if the category is drops [CHAR LIMIT=20] -->
+    <string name="category_drops">Drops</string>
+
+    <!-- Label for dropdown menu option if the category is remaining [CHAR LIMIT=20] -->
+    <string name="category_remaining">Remaining</string>
+
+
+    <!-- Label for dropdown menu option if the TypeMedicine is 1/2 Tablet  [CHAR LIMIT=20] -->
+    <string name="type_tablet">Tablet</string>
+
+    <!-- Label for dropdown menu option if the TypeMedicine is 1/2 Tablet [CHAR LIMIT=20] -->
+    <string name="type_12table">1/2 Tablet</string>
+
+    <!-- Label for dropdown menu option if the TypeMedicine is mg [CHAR LIMIT=20] -->
+    <string name="type_mg">mg</string>
+
+    <!-- Label for dropdown menu option if the TypeMedicine is Pills [CHAR LIMIT=20] -->
+    <string name="type_pills">Pills</string>
+
+</resources>

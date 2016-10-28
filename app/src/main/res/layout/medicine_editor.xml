@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#FBE9E7"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.example.android.medalerts2.MedicineEditor">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:paddingTop="5dp"
+            android:text="Name Medicine"
+            android:gravity="center"
+            android:id="@+id/nameMedicinetextView"
+            />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/name_medicine_editText"
+            android:hint="@string/name_medicine"
+            android:lines="2"
+            android:background="#E0E0E0"
+            android:layout_margin="16dp"
+            android:inputType="textCapWords" />
+
+
+        <TextView
+            android:text="@string/type_medicine"
+            style="@style/EditorFieldStyle"
+            />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/type_medicine"
+                android:id="@+id/categoty_spinner"
+                android:spinnerMode="dropdown"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="left"
+                android:layout_gravity="center_vertical"
+                android:paddingBottom="10dp"
+                />
+
+
+        <TextView
+            android:text="@string/medicine_indication"
+            style="@style/EditorFieldStyle"
+            />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/indication_editText"
+                android:background="#E0E0E0"
+                android:layout_margin="16dp"
+                android:lines="2"
+                android:inputType="textCapWords" />
+
+        <TextView
+            android:text="@string/icon_medicine"
+            style="@style/EditorFieldStyle"
+            />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="175dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:src="@android:mipmap/sym_def_app_icon" />
+
+
+        <TextView
+           android:text="@string/unit_medicine"
+            style="@style/EditorFieldStyle"
+            />
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/spinner"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/stock_medicine"
+            style="@style/EditorFieldStyle"
+            android:id="@+id/textView" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:id="@+id/stock_editText"
+                android:text="1"
+                android:inputType="number"
+                android:background="#E0E0E0"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/refill_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/refill_String"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="2.5"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="5">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:id="@+id/stock_Textview"
+                android:text="0"
+                android:background="#E0E0E0"
+                android:layout_weight="1.5"
+                android:layout_margin="16dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="@string/type_medicine"
+                android:gravity="center_vertical"
+                android:layout_gravity="left"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_weight="3.5"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/EditorFieldStyle" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:id="@+id/treatment_button"
+            android:text="@string/treatment_medicine"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:gravity="center"
+            android:background="@color/colorAccent"/>
+
+
+
+
+    </LinearLayout>
+</ScrollView>
